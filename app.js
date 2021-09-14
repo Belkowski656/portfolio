@@ -18,3 +18,7 @@ logo.addEventListener("click", () => {
   hamburger.classList.remove("active");
   document.querySelector(".nav__menu").classList.remove("active");
 });
+
+window.addEventListener("load", () => {
+  document.querySelector(".loader-wrapper").style.display = "none";
+});
